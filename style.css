@@ -177,6 +177,10 @@ header .row {
   width: 100%;
 }
 
+.header__description--title {
+  font-size: 48px;
+}
+
 .header__description--para {
 font-size: 24px;
   margin: 16px 0;
@@ -185,7 +189,7 @@ font-size: 24px;
 
 .header__email--input {
   padding: 16px 24px;
-  border: 1px solid black;
+  border: 2px solid rgb(229, 231,235);
   border-radius: 50px;
   font-size: 16px;
   width: 100%;
@@ -209,11 +213,6 @@ font-size: 24px;
 
 .header__img--wrapper {
  width: 55%;
-}
-
-.header__img {
-  width: 500px;
-  height: auto;
 }
 
 .header__email {
