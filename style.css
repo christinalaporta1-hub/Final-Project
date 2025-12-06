@@ -148,6 +148,11 @@ HEADER / ABOUT US ↓
 
 */
 
+header .row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .row .header__row {
   display: flex;
   align-items: center;
@@ -190,7 +195,6 @@ HEADER / ABOUT US ↓
 }
 
 .header__email {
-  display: flex;
   align-items: center;
 }
 
@@ -220,8 +224,9 @@ FEATURES ↓
   align-items: center;
 }
 
-#features .section__title, #pricing .section__title {
-text-align: center;
+#features .section__title,
+#pricing .section__title {
+  text-align: center;
 }
 
 #features .section__para {
