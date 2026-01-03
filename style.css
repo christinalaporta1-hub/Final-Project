@@ -975,6 +975,7 @@ main  {
 }
 
 .start__button:nth-child(1) {
+  border: none;
   background: #f56565;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -988,6 +989,7 @@ main  {
 
 .start__button:nth-child(2) {
   border: 1px solid rgb(160, 174, 192);
+  background-color: transparent;
   transition: all 300ms ease;
 }
 
@@ -1176,6 +1178,9 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 1024px) {
   .btn__menu {
     display: block;
+    nav__list{
+      display: none;
+    }
   }
   header .row {
     flex-direction: column;
