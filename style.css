@@ -1177,19 +1177,63 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 1024px) {
   .btn__menu {
-    display: block;
-    nav__list{
+    display: block;  
+    }
+
+    .nav__list {
       display: none;
     }
+
+    #features {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .feature {
+      width: 100%;
+    }
+
+    .feature__row {
+      justify-content: center;
+    }
+    header .row, #quality .row, #steps .row, #values .row {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    footer {
+      padding: 80px 32px;
+    }
+
+    .quality__description, .steps__description{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .quality__description{
+      margin-bottom: 48px;
+    }
+
+    .steps__description{
+      margin-top: 64px;
+      padding-left: 0;
+    }
+
+    .step, .step__description{
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section__para, .section__title{
+      text-align: center;
+    }
+   
   }
-  header .row {
-    flex-direction: column;
-    align-items: center;
-  }
-  footer {
-    padding: 80px 32px;
-  }
-}
+
 
 @media (max-width: 768px) {
   #quality .row,
