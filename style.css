@@ -178,11 +178,11 @@ header .row {
 }
 
 .header__description--title {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .header__description--para {
-  font-size: 24px;
+  font-size: 16px;
   margin: 16px 0;
   max-width: 500px;
 }
@@ -1255,6 +1255,7 @@ MOBILE RESPONSIVENESS ↓
 
     .quality__description{
       margin-bottom: 48px;
+      margin-right: 0;
     }
 
     .steps__description{
@@ -1282,6 +1283,9 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .values__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
     text-align: center;
     margin-bottom: 48px;
@@ -1305,6 +1309,7 @@ MOBILE RESPONSIVENESS ↓
 
 
 @media (max-width: 768px) {
+
   #quality .row,
   #values .row {
     flex-direction: column-reverse;
@@ -1313,6 +1318,10 @@ MOBILE RESPONSIVENESS ↓
   #steps .row,
   #testimonials .row {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .value {
     align-items: center;
   }
 
