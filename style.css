@@ -267,7 +267,7 @@ FEATURES ↓
 }
 
 .feature {
-  width: calc(100% / 3);
+  width: 300px;
 }
 
 .feature__row {
@@ -278,7 +278,7 @@ FEATURES ↓
 
 .feature__img--wrapper {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #e5e7eb;
   border-radius: 500px;
 }
@@ -1190,14 +1190,9 @@ MOBILE RESPONSIVENESS ↓
      #features {
       justify-content: center;
       align-items: center;
-      width: 50%;
     }
 
-    .feature {
-      width: 50%;
-    }
-
-    .feature__row {
+      .feature__row {
       justify-content: center;
     }
 
