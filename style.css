@@ -1188,14 +1188,13 @@ MOBILE RESPONSIVENESS ↓
     }
 
      #features {
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 50%;
     }
 
     .feature {
-      width: 100%;
+      width: 50%;
     }
 
     .feature__row {
@@ -1256,6 +1255,10 @@ MOBILE RESPONSIVENESS ↓
     .quality__description{
       margin-bottom: 48px;
       margin-right: 0;
+    }
+
+    .quality__img--wrapper, .steps__img--wrapper {
+      width: 100%;
     }
 
     .steps__description{
@@ -1321,6 +1324,14 @@ MOBILE RESPONSIVENESS ↓
     align-items: center;
   }
 
+  .features {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
   .value {
     align-items: center;
   }
@@ -1367,6 +1378,17 @@ MOBILE RESPONSIVENESS ↓
 
   .start__buttons {
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .start__button:nth-child(1) {
+    margin: 0;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap 16px;
   }
 
 }
